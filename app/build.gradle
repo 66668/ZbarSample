@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.sfs.zbar"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.+'
+    implementation 'com.android.support:recyclerview-v7:26.+'
+    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation files('libs/org.apache.http.legacy.jar')
+
+//    compile project(path: ':zbar')//使用源码lib
+    implementation rootProject.ext.dependencies.zbar//使用jar包
+    implementation rootProject.ext.dependencies.design
+    implementation rootProject.ext.dependencies.permission
+}

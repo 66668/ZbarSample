@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ZbarSample</string>
+    <string name="camera_failure">Connection failed</string>
+    <string name="camera_hint">Your camera may be occupied by other applications, please check and use.</string>
+    <string name="ok">OK</string>
+    <string name="error">网络请求失败</string>
+</resources>

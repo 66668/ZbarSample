@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- padding -->
+    <dimen name="padding_dp_2">2dp</dimen>
+    <dimen name="padding_dp_3">3dp</dimen>
+    <dimen name="padding_dp_5">5dp</dimen>
+    <dimen name="padding_dp_6">6dp</dimen>
+    <dimen name="padding_dp_8">8dp</dimen>
+    <dimen name="padding_dp_10">10dp</dimen>
+    <dimen name="padding_dp_12">12dp</dimen>
+    <!-- default image width/hight;default actionbar hight -->
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+
+    <!-- others -->
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+
+    <dimen name="textsize_sp_28">28sp</dimen>
+    <dimen name="textsize_sp_22">22sp</dimen>
+    <dimen name="textsize_sp_20">20sp</dimen>
+    <dimen name="textsize_sp_18">18sp</dimen>
+    <dimen name="textsize_sp_16">16sp</dimen>
+    <dimen name="textsize_sp_14">14sp</dimen>
+    <dimen name="textsize_sp_12">12sp</dimen>
+
+    <!--zbar布局 识别框大小 322 165-->
+    <dimen name="ratio_with">322dp</dimen>
+    <dimen name="ratio_heigh">165dp</dimen>
+</resources>

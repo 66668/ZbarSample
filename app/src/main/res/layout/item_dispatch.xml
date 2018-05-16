@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sfs.zbar.adapter.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:background="@drawable/qr_scan_shadow"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:text="快递单号:"
+            android:textColor="#2FC1ED"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_expnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="快递单号"
+            android:textColor="#2FC1ED"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/del"
+        android:layout_width="75dp"
+        android:layout_height="fill_parent"
+        android:background="#FF8432"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+</com.sfs.zbar.adapter.MyLinearLayout>
