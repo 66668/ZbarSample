@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ZbarSample.iml" filepath="$PROJECT_DIR$/ZbarSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zbar/zbar.iml" filepath="$PROJECT_DIR$/zbar/zbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zbar_barcode/zbar_barcode.iml" filepath="$PROJECT_DIR$/zbar_barcode/zbar_barcode.iml" />
     </modules>
   </component>
 </project>

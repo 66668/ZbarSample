@@ -25,7 +25,7 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.2.4'
     implementation files('libs/org.apache.http.legacy.jar')
 
-//    compile project(path: ':zbar')//使用源码lib
+//    implementation project(path: ':zbar')//使用源码lib
     implementation rootProject.ext.dependencies.zbar//使用jar包
     implementation rootProject.ext.dependencies.design
     implementation rootProject.ext.dependencies.permission
