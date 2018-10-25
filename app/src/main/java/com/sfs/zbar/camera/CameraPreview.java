@@ -45,7 +45,7 @@ public class CameraPreview extends FrameLayout implements SurfaceHolder.Callback
     public CameraPreview(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mCameraManager = new CameraManager(context);//实例化 相机管理类
-        mPreviewCallback = new CameraScanAnalysis();//实例化 相机回调类
+        mPreviewCallback = new CameraScanAnalysis();//实例化 zbar回调类
     }
     //=======================================================暴露方法=================================================================
     /**

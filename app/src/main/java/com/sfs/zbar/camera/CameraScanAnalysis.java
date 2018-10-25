@@ -50,6 +50,7 @@ public class CameraScanAnalysis implements Camera.PreviewCallback {
 
     public CameraScanAnalysis() {
         mImageScanner = new ImageScanner();
+        //设置扫描样式 qr 条码等
         mImageScanner.setConfig(0, Config.X_DENSITY, 3);//x
         mImageScanner.setConfig(0, Config.Y_DENSITY, 3);//y
 
